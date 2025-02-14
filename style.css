@@ -1,0 +1,53 @@
+/* Style dasar untuk halaman */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fce4ec;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.container {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #e91e63;
+    font-size: 36px;
+}
+
+.message {
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+button {
+    background-color: #e91e63;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #d81b60;
+}
+
+.heart {
+    font-size: 50px;
+    color: #e91e63;
+    margin-top: 20px;
+}
